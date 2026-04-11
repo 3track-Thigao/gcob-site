@@ -27,13 +27,13 @@
       theme: {
         extend: {
           colors: {
-            blue: {
-              950: '#0F1929',
-              900: '#1B2A4A',
-              800: '#243660',
-              700: '#2E4577',
-              600: '#3D5A80',
-              500: '#4A6D96',
+            dark: {
+              950: '#111111',
+              900: '#1C1C1C',
+              800: '#2A2A2A',
+              700: '#333333',
+              600: '#444444',
+              500: '#555555',
             },
             orange: {
               100: '#FFE8D0',
@@ -84,8 +84,8 @@
       backdrop-filter: blur(12px);
       box-shadow: 0 1px 12px rgba(0,0,0,0.08);
     }
-    #navbar.scrolled a:not([style]) { color: #3D5A80 !important; }
-    #navbar.scrolled button { color: #3D5A80 !important; }
+    #navbar.scrolled a:not([style]) { color: #2D2D2D !important; }
+    #navbar.scrolled button { color: #2D2D2D !important; }
 
     /* ---- Orange gradient text ---- */
     .gold-text {
@@ -131,10 +131,10 @@
 
     /* ---- Hero bg ---- */
     .hero-bg {
-      background-color: #1B2A4A;
+      background-color: #1C1C1C;
       background-image:
         radial-gradient(ellipse 70% 60% at 10% 60%, rgba(232,117,10,0.10) 0%, transparent 60%),
-        radial-gradient(ellipse 50% 50% at 90% 10%, rgba(61,90,128,0.5) 0%, transparent 60%);
+        radial-gradient(ellipse 50% 50% at 90% 10%, rgba(50,50,50,0.5) 0%, transparent 60%);
     }
     .hero-grid {
       background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none'%3E%3Cg fill='%23E8750A' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -204,7 +204,7 @@
       transition: box-shadow 0.25s, transform 0.25s;
     }
     .diff-card:hover {
-      box-shadow: 0 12px 32px rgba(61,90,128,0.10);
+      box-shadow: 0 12px 32px rgba(30,41,59,0.10);
       transform: translateY(-4px);
     }
 
@@ -250,10 +250,10 @@
   <!-- Mobile menu -->
   <div id="mobile-menu" style="background:white;border-top:1px solid #E2E8F0;">
     <div class="px-6 py-5 flex flex-col gap-4">
-      <a href="#problema"    class="mob-link text-sm transition-colors cursor-pointer" style="color:#3D5A80;">O Problema</a>
-      <a href="#diferenciais" class="mob-link text-sm transition-colors cursor-pointer" style="color:#3D5A80;">Diferenciais</a>
-      <a href="#servicos"    class="mob-link text-sm transition-colors cursor-pointer" style="color:#3D5A80;">Serviços</a>
-      <a href="#sobre"       class="mob-link text-sm transition-colors cursor-pointer" style="color:#3D5A80;">Sobre</a>
+      <a href="#problema"    class="mob-link text-sm transition-colors cursor-pointer" style="color:#2D2D2D;">O Problema</a>
+      <a href="#diferenciais" class="mob-link text-sm transition-colors cursor-pointer" style="color:#2D2D2D;">Diferenciais</a>
+      <a href="#servicos"    class="mob-link text-sm transition-colors cursor-pointer" style="color:#2D2D2D;">Serviços</a>
+      <a href="#sobre"       class="mob-link text-sm transition-colors cursor-pointer" style="color:#2D2D2D;">Sobre</a>
       <a href="#contato"     class="mob-link text-center py-3 text-sm font-semibold rounded cursor-pointer" style="background:#E8750A;color:white;">Quero uma proposta</a>
     </div>
   </div>
@@ -344,10 +344,10 @@
 
     <div class="text-center mb-16">
       <div class="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium mb-5"
-           style="background:rgba(61,90,128,0.06);color:#3D5A80;">
+           style="background:rgba(30,41,59,0.06);color:#2D2D2D;">
         O Problema
       </div>
-      <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-5 gold-underline gold-underline-center" style="color:#3D5A80;">
+      <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-5 gold-underline gold-underline-center" style="color:#2D2D2D;">
         Inadimplência custa mais<br>do que você imagina
       </h2>
       <p class="reveal text-gray-500 text-lg max-w-2xl mx-auto leading-relaxed" style="margin-top:28px;">
@@ -366,7 +366,7 @@
             <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
           </svg>
         </div>
-        <h3 class="text-xl font-bold mb-3" style="color:#3D5A80;">Fluxo de caixa comprometido</h3>
+        <h3 class="text-xl font-bold mb-3" style="color:#2D2D2D;">Fluxo de caixa comprometido</h3>
         <p class="text-gray-500 text-sm leading-relaxed">Contas a pagar não esperam. Enquanto os recebíveis ficam represados, sua empresa sangra capital de giro mês a mês.</p>
       </div>
 
@@ -380,7 +380,7 @@
             <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
           </svg>
         </div>
-        <h3 class="text-xl font-bold mb-3" style="color:#3D5A80;">Produtividade consumida</h3>
+        <h3 class="text-xl font-bold mb-3" style="color:#2D2D2D;">Produtividade consumida</h3>
         <p class="text-gray-500 text-sm leading-relaxed">Sua equipe desperdiça horas em cobranças manuais, ligações sem retorno e planilhas desatualizadas — sem resultado.</p>
       </div>
 
@@ -392,7 +392,7 @@
             <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
           </svg>
         </div>
-        <h3 class="text-xl font-bold mb-3" style="color:#3D5A80;">Relacionamento desgastado</h3>
+        <h3 class="text-xl font-bold mb-3" style="color:#2D2D2D;">Relacionamento desgastado</h3>
         <p class="text-gray-500 text-sm leading-relaxed">Cobranças sem abordagem profissional afastam clientes definitivamente. A imagem da sua empresa está em jogo em cada contato.</p>
       </div>
     </div>
@@ -400,7 +400,7 @@
     <!-- Bridge text -->
     <div class="reveal text-center">
       <div class="w-px h-8 mx-auto mb-6" style="background:linear-gradient(180deg,transparent,#E8750A);"></div>
-      <p class="text-xl md:text-2xl font-medium max-w-2xl mx-auto" style="color:#3D5A80;font-family:'Playfair Display',serif;line-height:1.5;">
+      <p class="text-xl md:text-2xl font-medium max-w-2xl mx-auto" style="color:#2D2D2D;font-family:'Playfair Display',serif;line-height:1.5;">
         "Você não precisa lidar com isso sozinho.<br>
         <span style="color:#E8750A;">A G-COB foi criada exatamente para esse momento."</span>
       </p>
@@ -433,7 +433,7 @@
               <div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0"
                    style="background:rgba(232,117,10,0.18);color:#E8750A;">G</div>
               <div>
-                <div class="font-medium text-sm" style="color:#3D5A80;">Fundadores da G-COB</div>
+                <div class="font-medium text-sm" style="color:#2D2D2D;">Fundadores da G-COB</div>
                 <div class="text-gray-400 text-xs mt-0.5">Advogados especialistas · São Paulo, 2018</div>
               </div>
             </div>
@@ -441,7 +441,7 @@
 
           <!-- Floating stat -->
           <div class="absolute -bottom-2 -right-2 md:-right-6 p-5 rounded-xl hidden sm:block"
-               style="background:#3D5A80;border:1px solid rgba(232,117,10,0.28);box-shadow:0 8px 32px rgba(0,0,0,0.15);">
+               style="background:#E8750A;border:1px solid rgba(232,117,10,0.5);box-shadow:0 8px 32px rgba(0,0,0,0.15);">
             <div class="text-center">
               <div class="text-2xl font-bold" style="color:#FF9A3C;">2018</div>
               <div class="text-white/60 text-xs mt-1">Fundação</div>
@@ -463,7 +463,7 @@
           Nossa História
         </div>
 
-        <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-6 gold-underline" style="color:#3D5A80;line-height:1.12;">
+        <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-6 gold-underline" style="color:#2D2D2D;line-height:1.12;">
           Nascemos para resolver o problema que o mercado ignorava
         </h2>
 
@@ -475,7 +475,7 @@
 
         <div class="reveal reveal-d2 mt-6 p-5 rounded-lg border-l-4"
              style="background:rgba(232,117,10,0.07);border-left-color:#E8750A;">
-          <p class="font-semibold text-lg" style="color:#3D5A80;font-family:'Playfair Display',serif;">
+          <p class="font-semibold text-lg" style="color:#2D2D2D;font-family:'Playfair Display',serif;">
             "Só ganhamos quando você recebe."
           </p>
         </div>
@@ -509,10 +509,10 @@
 
     <div class="text-center mb-16">
       <div class="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium mb-5"
-           style="background:rgba(61,90,128,0.06);color:#3D5A80;">
+           style="background:rgba(30,41,59,0.06);color:#2D2D2D;">
         Nossos Diferenciais
       </div>
-      <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-4 gold-underline gold-underline-center" style="color:#3D5A80;">
+      <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-4 gold-underline gold-underline-center" style="color:#2D2D2D;">
         Por que a G-COB é diferente?
       </h2>
       <p class="reveal text-gray-500 text-lg max-w-xl mx-auto" style="margin-top:28px;">
@@ -527,7 +527,7 @@
         <div class="w-11 h-11 rounded-lg flex items-center justify-center mb-5" style="background:rgba(232,117,10,0.1);">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E8750A" stroke-width="1.6" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
         </div>
-        <h3 class="font-bold text-lg mb-2" style="color:#3D5A80;">Só ganhamos quando você recebe</h3>
+        <h3 class="font-bold text-lg mb-2" style="color:#2D2D2D;">Só ganhamos quando você recebe</h3>
         <p class="text-gray-500 text-sm leading-relaxed">Cobrança por percentual de recebíveis. Sem custos fixos, sem risco para o seu caixa.</p>
       </div>
 
@@ -536,7 +536,7 @@
         <div class="w-11 h-11 rounded-lg flex items-center justify-center mb-5" style="background:rgba(232,117,10,0.1);">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E8750A" stroke-width="1.6" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l1.96-1.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 14.92z"/></svg>
         </div>
-        <h3 class="font-bold text-lg mb-2" style="color:#3D5A80;">Atendimento de excelência</h3>
+        <h3 class="font-bold text-lg mb-2" style="color:#2D2D2D;">Atendimento de excelência</h3>
         <p class="text-gray-500 text-sm leading-relaxed">Contato humanizado por telefone, WhatsApp e e-mail. Cada devedor tratado como uma oportunidade de acordo.</p>
       </div>
 
@@ -545,7 +545,7 @@
         <div class="w-11 h-11 rounded-lg flex items-center justify-center mb-5" style="background:rgba(232,117,10,0.1);">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E8750A" stroke-width="1.6" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
         </div>
-        <h3 class="font-bold text-lg mb-2" style="color:#3D5A80;">Cada caso é único</h3>
+        <h3 class="font-bold text-lg mb-2" style="color:#2D2D2D;">Cada caso é único</h3>
         <p class="text-gray-500 text-sm leading-relaxed">Tratamento individualizado para cada devedor — aumentando significativamente a taxa de acordos no primeiro contato.</p>
       </div>
 
@@ -554,7 +554,7 @@
         <div class="w-11 h-11 rounded-lg flex items-center justify-center mb-5" style="background:rgba(232,117,10,0.1);">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E8750A" stroke-width="1.6" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
         </div>
-        <h3 class="font-bold text-lg mb-2" style="color:#3D5A80;">Equipe jurídica especializada</h3>
+        <h3 class="font-bold text-lg mb-2" style="color:#2D2D2D;">Equipe jurídica especializada</h3>
         <p class="text-gray-500 text-sm leading-relaxed">Dois advogados especialistas conduzindo cada estratégia com profundidade técnica e jurídica.</p>
       </div>
 
@@ -563,7 +563,7 @@
         <div class="w-11 h-11 rounded-lg flex items-center justify-center mb-5" style="background:rgba(232,117,10,0.1);">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E8750A" stroke-width="1.6" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
         </div>
-        <h3 class="font-bold text-lg mb-2" style="color:#3D5A80;">Transparência total</h3>
+        <h3 class="font-bold text-lg mb-2" style="color:#2D2D2D;">Transparência total</h3>
         <p class="text-gray-500 text-sm leading-relaxed">Relatórios periódicos com números reais: atendimentos, acordos fechados e valores recebíveis.</p>
       </div>
 
@@ -572,7 +572,7 @@
         <div class="w-11 h-11 rounded-lg flex items-center justify-center mb-5" style="background:rgba(232,117,10,0.1);">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E8750A" stroke-width="1.6" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
         </div>
-        <h3 class="font-bold text-lg mb-2" style="color:#3D5A80;">Preservação da sua imagem</h3>
+        <h3 class="font-bold text-lg mb-2" style="color:#2D2D2D;">Preservação da sua imagem</h3>
         <p class="text-gray-500 text-sm leading-relaxed">Atuamos de acordo com os valores e diretrizes da sua empresa. Sua reputação é nossa responsabilidade.</p>
       </div>
 
@@ -590,7 +590,7 @@
            style="background:rgba(232,117,10,0.1);color:#E8750A;border:1px solid rgba(232,117,10,0.2);">
         Nossos Serviços
       </div>
-      <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-4 gold-underline gold-underline-center" style="color:#3D5A80;">
+      <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-4 gold-underline gold-underline-center" style="color:#2D2D2D;">
         Soluções completas para<br>recuperação de créditos
       </h2>
     </div>
@@ -605,7 +605,7 @@
           </div>
           <div>
             <div class="text-xs font-semibold mb-2 tracking-widest" style="color:#E8750A;">SERVIÇO 01</div>
-            <h3 class="text-xl font-bold mb-2" style="color:#3D5A80;">Assessoria Jurídica e Consultiva</h3>
+            <h3 class="text-xl font-bold mb-2" style="color:#2D2D2D;">Assessoria Jurídica e Consultiva</h3>
             <p class="text-gray-500 text-sm leading-relaxed">Análise estratégica dos processos de cobrança para minimizar inadimplências futuras e aumentar a produtividade da sua equipe.</p>
           </div>
         </div>
@@ -619,7 +619,7 @@
           </div>
           <div>
             <div class="text-xs font-semibold mb-2 tracking-widest" style="color:#E8750A;">SERVIÇO 02</div>
-            <h3 class="text-xl font-bold mb-2" style="color:#3D5A80;">Gestão de Carteira</h3>
+            <h3 class="text-xl font-bold mb-2" style="color:#2D2D2D;">Gestão de Carteira</h3>
             <p class="text-gray-500 text-sm leading-relaxed">Identificamos oportunidades em cada carteira, aplicando estratégias personalizadas com foco em fechar acordos no primeiro contato.</p>
           </div>
         </div>
@@ -633,7 +633,7 @@
           </div>
           <div>
             <div class="text-xs font-semibold mb-2 tracking-widest" style="color:#E8750A;">SERVIÇO 03</div>
-            <h3 class="text-xl font-bold mb-2" style="color:#3D5A80;">Contato com Devedores</h3>
+            <h3 class="text-xl font-bold mb-2" style="color:#2D2D2D;">Contato com Devedores</h3>
             <p class="text-gray-500 text-sm leading-relaxed">Abordagem humanizada via telefone, WhatsApp e e-mail. Entendemos o devedor, falamos a língua dele e geramos acordos que funcionam.</p>
           </div>
         </div>
@@ -647,7 +647,7 @@
           </div>
           <div>
             <div class="text-xs font-semibold mb-2 tracking-widest" style="color:#E8750A;">SERVIÇO 04</div>
-            <h3 class="text-xl font-bold mb-2" style="color:#3D5A80;">Higienização de Base</h3>
+            <h3 class="text-xl font-bold mb-2" style="color:#2D2D2D;">Higienização de Base</h3>
             <p class="text-gray-500 text-sm leading-relaxed">Higienização e enriquecimento da base de clientes para otimizar o tempo da operação e maximizar a eficiência das cobranças.</p>
           </div>
         </div>
@@ -664,10 +664,10 @@
 
     <div class="text-center mb-16">
       <div class="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium mb-5"
-           style="background:rgba(61,90,128,0.06);color:#3D5A80;">
+           style="background:rgba(30,41,59,0.06);color:#2D2D2D;">
         Como Trabalhamos
       </div>
-      <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-4 gold-underline gold-underline-center" style="color:#3D5A80;">
+      <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-4 gold-underline gold-underline-center" style="color:#2D2D2D;">
         Dois modelos para<br>o seu momento
       </h2>
     </div>
@@ -675,7 +675,7 @@
     <div class="grid md:grid-cols-2 gap-7 mb-8">
 
       <!-- Modelo A -->
-      <div class="reveal reveal-d1 relative overflow-hidden rounded-xl p-9" style="background:#3D5A80;border:2px solid #E8750A;">
+      <div class="reveal reveal-d1 relative overflow-hidden rounded-xl p-9" style="background:#E8750A;border:2px solid #D46808;">
         <div class="absolute top-0 right-0 w-36 h-36 rounded-bl-full opacity-5" style="background:#E8750A;"></div>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold mb-5"
              style="background:rgba(232,117,10,0.15);color:#E8750A;">
@@ -706,29 +706,29 @@
 
       <!-- Modelo B -->
       <div class="reveal reveal-d2 relative overflow-hidden rounded-xl p-9 bg-white" style="border:1px solid #e2e8f0;box-shadow:0 4px 24px rgba(0,0,0,0.07);">
-        <div class="absolute top-0 right-0 w-36 h-36 rounded-bl-full opacity-4" style="background:#3D5A80;"></div>
+        <div class="absolute top-0 right-0 w-36 h-36 rounded-bl-full opacity-4" style="background:#E8750A;"></div>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold mb-5"
-             style="background:rgba(61,90,128,0.07);color:#3D5A80;">
+             style="background:rgba(30,41,59,0.07);color:#2D2D2D;">
           A partir de 61 dias de atraso
         </div>
-        <div class="text-5xl font-bold mb-1" style="color:#3D5A80;font-family:'IBM Plex Sans';">B</div>
-        <h3 class="text-2xl font-bold mb-5" style="color:#3D5A80;">Cobrança Extrajudicial</h3>
+        <div class="text-5xl font-bold mb-1" style="color:#2D2D2D;font-family:'IBM Plex Sans';">B</div>
+        <h3 class="text-2xl font-bold mb-5" style="color:#2D2D2D;">Cobrança Extrajudicial</h3>
         <div class="h-px mb-6" style="background:#e2e8f0;"></div>
         <ul class="space-y-3">
           <li class="flex items-start gap-3">
-            <svg class="flex-shrink-0 mt-0.5" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#3D5A80" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            <svg class="flex-shrink-0 mt-0.5" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2D2D2D" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
             <span class="text-gray-600 text-sm">Equipe especializada em negociação de saldos</span>
           </li>
           <li class="flex items-start gap-3">
-            <svg class="flex-shrink-0 mt-0.5" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#3D5A80" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            <svg class="flex-shrink-0 mt-0.5" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2D2D2D" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
             <span class="text-gray-600 text-sm">Estratégia definida conforme perfil do contratante</span>
           </li>
           <li class="flex items-start gap-3">
-            <svg class="flex-shrink-0 mt-0.5" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#3D5A80" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            <svg class="flex-shrink-0 mt-0.5" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2D2D2D" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
             <span class="text-gray-600 text-sm">Condução jurídica por advogados especialistas</span>
           </li>
           <li class="flex items-start gap-3">
-            <svg class="flex-shrink-0 mt-0.5" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#3D5A80" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            <svg class="flex-shrink-0 mt-0.5" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2D2D2D" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
             <span class="text-gray-600 text-sm">Preservação total da imagem do seu negócio</span>
           </li>
         </ul>
@@ -736,10 +736,10 @@
     </div>
 
     <!-- Note -->
-    <div class="reveal text-center p-5 rounded-xl" style="background:rgba(61,90,128,0.04);border:1px dashed rgba(61,90,128,0.14);">
+    <div class="reveal text-center p-5 rounded-xl" style="background:rgba(30,41,59,0.04);border:1px dashed rgba(30,41,59,0.14);">
       <p class="text-gray-600">
-        <strong style="color:#3D5A80;">Importante:</strong>
-        O pagamento é feito <strong style="color:#3D5A80;">diretamente ao seu cliente</strong> — somos apenas a intermediadora do acordo.
+        <strong style="color:#2D2D2D;">Importante:</strong>
+        O pagamento é feito <strong style="color:#2D2D2D;">diretamente ao seu cliente</strong> — somos apenas a intermediadora do acordo.
       </p>
     </div>
   </div>
@@ -755,7 +755,7 @@
       Modelo Comercial
     </div>
 
-    <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-6 gold-underline gold-underline-center" style="color:#3D5A80;">
+    <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-6 gold-underline gold-underline-center" style="color:#2D2D2D;">
       Remuneração simples e justa
     </h2>
 
@@ -797,10 +797,10 @@
 
     <div class="text-center mb-16">
       <div class="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium mb-5"
-           style="background:rgba(61,90,128,0.06);color:#3D5A80;">
+           style="background:rgba(30,41,59,0.06);color:#2D2D2D;">
         Quem Somos
       </div>
-      <h2 class="reveal text-3xl md:text-4xl font-bold gold-underline gold-underline-center" style="color:#3D5A80;">
+      <h2 class="reveal text-3xl md:text-4xl font-bold gold-underline gold-underline-center" style="color:#2D2D2D;">
         Os pilares da G-COB
       </h2>
     </div>
@@ -809,19 +809,19 @@
 
       <!-- Missão -->
       <div class="reveal reveal-d1 card-corners text-center p-9 rounded-xl bg-white" style="box-shadow:0 2px 16px rgba(0,0,0,0.055);border:1px solid #eef2f7;">
-        <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style="background:rgba(61,90,128,0.05);">
+        <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style="background:rgba(30,41,59,0.05);">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <circle cx="12" cy="12" r="10" stroke="#3D5A80" stroke-width="1.4"/>
-            <circle cx="12" cy="12" r="6" stroke="#3D5A80" stroke-width="1.4"/>
+            <circle cx="12" cy="12" r="10" stroke="#2D2D2D" stroke-width="1.4"/>
+            <circle cx="12" cy="12" r="6" stroke="#2D2D2D" stroke-width="1.4"/>
             <circle cx="12" cy="12" r="2" fill="#E8750A"/>
           </svg>
         </div>
-        <h3 class="text-xl font-bold mb-4" style="color:#3D5A80;">Missão</h3>
+        <h3 class="text-xl font-bold mb-4" style="color:#2D2D2D;">Missão</h3>
         <p class="text-gray-500 text-sm leading-relaxed">Recuperar créditos com excelência e atendimento humanizado, preservando a imagem e os valores éticos dos nossos clientes — e auxiliando devedores a restabelecerem seu poder de compra.</p>
       </div>
 
       <!-- Visão — destaque -->
-      <div class="reveal reveal-d2 card-corners text-center p-9 rounded-xl" style="background:#3D5A80;box-shadow:0 4px 28px rgba(61,90,128,0.30);">
+      <div class="reveal reveal-d2 card-corners text-center p-9 rounded-xl" style="background:#E8750A;box-shadow:0 4px 28px rgba(232,117,10,0.30);">
         <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style="background:rgba(232,117,10,0.14);">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#E8750A" stroke-width="1.4" aria-hidden="true">
             <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
@@ -839,11 +839,11 @@
             <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
           </svg>
         </div>
-        <h3 class="text-xl font-bold mb-5" style="color:#3D5A80;">Valores</h3>
+        <h3 class="text-xl font-bold mb-5" style="color:#2D2D2D;">Valores</h3>
         <div class="flex flex-wrap justify-center gap-2">
-          <span class="px-3 py-1 rounded-full text-xs font-medium" style="background:rgba(61,90,128,0.06);color:#3D5A80;">Ética</span>
-          <span class="px-3 py-1 rounded-full text-xs font-medium" style="background:rgba(61,90,128,0.06);color:#3D5A80;">Responsabilidade</span>
-          <span class="px-3 py-1 rounded-full text-xs font-medium" style="background:rgba(61,90,128,0.06);color:#3D5A80;">Transparência</span>
+          <span class="px-3 py-1 rounded-full text-xs font-medium" style="background:rgba(30,41,59,0.06);color:#2D2D2D;">Ética</span>
+          <span class="px-3 py-1 rounded-full text-xs font-medium" style="background:rgba(30,41,59,0.06);color:#2D2D2D;">Responsabilidade</span>
+          <span class="px-3 py-1 rounded-full text-xs font-medium" style="background:rgba(30,41,59,0.06);color:#2D2D2D;">Transparência</span>
           <span class="px-3 py-1 rounded-full text-xs font-medium" style="background:rgba(232,117,10,0.13);color:#B55506;">Comprometimento</span>
           <span class="px-3 py-1 rounded-full text-xs font-medium" style="background:rgba(232,117,10,0.13);color:#B55506;">Inovação</span>
           <span class="px-3 py-1 rounded-full text-xs font-medium" style="background:rgba(232,117,10,0.13);color:#B55506;">Respeito</span>
@@ -868,7 +868,7 @@
           Fale com um especialista
         </div>
 
-        <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-5" style="color:#3D5A80;line-height:1.12;">
+        <h2 class="reveal text-3xl md:text-4xl lg:text-5xl font-bold mb-5" style="color:#2D2D2D;line-height:1.12;">
           Pronto para recuperar<br>
           <span style="color:#E8750A;">o que é seu?</span>
         </h2>
@@ -920,7 +920,7 @@
               class="p-8 rounded-xl"
               style="background:white;border:1px solid #E2E8F0;box-shadow:0 4px 20px rgba(0,0,0,0.06);"
               novalidate>
-          <h3 class="text-xl font-bold mb-7" style="color:#3D5A80;">Solicitar proposta</h3>
+          <h3 class="text-xl font-bold mb-7" style="color:#2D2D2D;">Solicitar proposta</h3>
 
           <div class="space-y-4">
             <div>
@@ -973,7 +973,7 @@
 
 
 <!-- ===================== FOOTER ===================== -->
-<footer style="background:#1B2A4A;border-top:1px solid rgba(232,117,10,0.15);">
+<footer style="background:#1C1C1C;border-top:1px solid rgba(232,117,10,0.15);">
   <div class="max-w-7xl mx-auto px-6 py-12">
 
     <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8 mb-10">
